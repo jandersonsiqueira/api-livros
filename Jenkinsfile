@@ -37,7 +37,7 @@ pipeline {
                     -Dsonar.projectKey=api-livros \
                     -Dsonar.sources=src \
                     -Dsonar.tests=tests \
-                    -Dsonar.javascript.lcov.reportPaths=coverage/lcov.report.info
+                    -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
                     """
                 }
             }
