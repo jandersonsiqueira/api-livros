@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs "NodeJS" 
+    }
+
     environment {
         DOCKER_IMAGE = "ghcr.io/jandersonsiqueira-github/api-livros"
         
